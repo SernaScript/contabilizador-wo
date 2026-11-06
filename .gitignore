@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+*.spec
+
+# Entornos y herramientas
+.venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.pyright/
+
+# Datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# SO / editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# XML reales de clientes (no versionar)
+ejemplos/xml/
+.atl/
