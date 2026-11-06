@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ApplicationResponse xmlns="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sts="dian:gov:co:facturaelectronica:Structures-2-1" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cbc:UBLVersionID>UBL 2.1</cbc:UBLVersionID>
+  <cbc:ID>RESP-778899</cbc:ID>
+  <cbc:UUID schemeName="CUDE-SHA384">88f41b56f36ba7242e3d91294c13ff584563f9b277fea87a1cec8f5e85baab4c3be3b4f7bcae7766893c0d3c105545db</cbc:UUID>
+  <cbc:IssueDate>2026-08-31</cbc:IssueDate>
+  <cac:DocumentResponse>
+    <cac:Response><cbc:ResponseCode>02</cbc:ResponseCode><cbc:Description>Documento validado por la DIAN</cbc:Description></cac:Response>
+    <cac:DocumentReference><cbc:ID>SETT2045</cbc:ID><cbc:UUID schemeName="CUFE-SHA384">41d4556c3e732fee4b843a02ae10550044c229dc64099f16585202f32a955f0ffca77524a94d733cf01c2581644a6afb</cbc:UUID></cac:DocumentReference>
+  </cac:DocumentResponse>
+</ApplicationResponse>
